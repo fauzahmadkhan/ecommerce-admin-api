@@ -67,5 +67,6 @@ export class Sale extends BaseModel {
 }
 
 const SaleSchema = SchemaFactory.createForClass(Sale);
+SaleSchema.index({ customerId: 1, totalPrice: 1 });
 
 export { SaleSchema };
