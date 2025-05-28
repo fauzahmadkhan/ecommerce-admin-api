@@ -1,0 +1,5 @@
+{
+  "HELLO": "Hello",
+  "VALIDATION_REQUIRED": "$property is required",
+  "VALIDATION_MIN_LENGTH": "$property must be at least $constraint1 characters long"
+}
